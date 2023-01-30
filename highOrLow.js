@@ -58,9 +58,10 @@ function rankGuess(id){
     
     if (guessTokens < 1){
         gameCard = null;
-        document.getElementById("head").innerText = "Game Over"
-        document.getElementById("streak").innerText = " "
-        document.getElementById("startGame").innerText ="Play Again?"
+        document.getElementById("head").innerText = "Game Over";
+        document.getElementById("streak").innerText = " ";
+        document.getElementById("startGame").innerText ="Play Again?";
+        document.getElementById("tokens").innerText=0;
     }
     console.log(id)
     if (suitToken < 1){
