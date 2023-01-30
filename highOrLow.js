@@ -56,7 +56,7 @@ function suitGuess(id){
 
 function rankGuess(id){
     
-    if (guessTokens <= 1){
+    if (guessTokens < 1){
         gameCard = null;
         document.getElementById("head").innerText = "Game Over"
         document.getElementById("streak").innerText = " "
