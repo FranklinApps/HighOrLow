@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <header id="head" class="Title">I'm Thinking of a Card...</header> 
+    <br>
+    <h2 id="h2">Please Press Start</h2>
+    <div class="suitButtons">
+        <button onClick="suitGuess(id='Clubs')" class="suitGuess" id="Clubs">&clubs;</button>
+        <button onClick="suitGuess(id='Spades')" class="suitGuess" id="Spades">&spades;</button>
+        <button onClick="suitGuess(id='Hearts')" class="suitGuess" id="Hearts">&hearts;</button>
+        <button onClick="suitGuess(id='Diamonds')" class="suitGuess" id="Diamonds">&diams;</button>
+    </div>
+<div class="container">
+    
+   
+    <div class="rankButtons">
+        <button onClick="rankGuess(id=2)" class="rankGuess" id="2">2</button>
+        <button onClick="rankGuess(id=3)" class="rankGuess" id="3">3</button>
+        <button onClick="rankGuess(id=4)" class="rankGuess" id="4">4</button>
+        <button onClick="rankGuess(id=5)" class="rankGuess" id="5">5</button>
+        <button onClick="rankGuess(id=6)" class="rankGuess" id="6">6</button>
+        <button onClick="rankGuess(id=7)" class="rankGuess" id="7">7</button>
+        <button onClick="rankGuess(id=8)" class="rankGuess" id="8">8</button>
+        <button onClick="rankGuess(id=9)" class="rankGuess" id="9">9</button>
+        <button onClick="rankGuess(id=10)" class="rankGuess" id="10">10</button>
+        <button onClick="rankGuess(id=11)" class="rankGuess" id="J">J</button>
+        <button onClick="rankGuess(id=12)" class="rankGuess" id="Q">Q</button>
+        <button onClick="rankGuess(id=13)" class="rankGuess" id="K">K</button>
+        <button onClick="rankGuess(id=14)" class="rankGuess" id="A">A</button>
+    </div>
+</div>
+<div class="guesses">Remaining Guesses: </div>
+    <span id = "tokens" class="tokens"></span>
+    
+<p id="card" class="card"></p>
+<span class="card" id="streak"></span>
+<button onClick="startGame()" class="startGame" id="startGame">Start Game</button>
+<script src="highOrLow.js"></script>
+</body>
+</html>

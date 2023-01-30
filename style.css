@@ -1,0 +1,77 @@
+body{
+    background-color:#224132;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #999999;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rankGuess{
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+    margin:15px;
+}
+
+.rankButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:wrap;
+    font-size: 3em;
+    width: 60%
+}
+
+.startGame{
+    background-color: white;
+    margin:40px;
+    padding:50px;
+    font-size: 2em;
+    transition-duration: .3s;
+}
+
+.startGame:hover{
+    background-color: #3c7359;
+
+} 
+.Title{
+    font-size: 5em;
+}
+
+.card{
+    font-size: 3em;
+}
+
+.suitGuess{
+    height: 70px;
+    width: 50px;
+    font-size: 3em;
+}
+
+.suitGuess:hover{
+    background-color:#3c7359 ;
+}
+
+
+.rankGuess{
+    font-size: large;
+}
+
+.rankGuess:hover{
+    background-color: #3c7359;
+}
+
+.guesses{
+    font-size: 4em;
+}
+
+.tokens{
+    font-size: 3em;
+}
